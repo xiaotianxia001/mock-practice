@@ -85,18 +85,18 @@
 
 <script>
 export default {
-  name: "HelloWorld",
-  data() {
+  name: 'HelloWorld',
+  data () {
     return {
-      msg: "Welcome to Your Vue.js App"
+      msg: 'Welcome to Your Vue.js App'
     };
   },
-  created() {
-    this.$axios.post("/aa.jj").then(res => {
-      console.log(res);
-    });
+  created () {
+    this.$axios.post('/aa.jj').then(res => {
+      console.log(res)
+    })
   }
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
